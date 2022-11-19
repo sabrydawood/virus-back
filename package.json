@@ -1,6 +1,6 @@
 {
   "name": "virus-back",
-  "version": "0.0.2",
+  "version": "0.0.2-fix",
   "description": "virus-back tracks the previous page a user visited in sessions, allowing for reliable back one page redirects.",
   "main": "index.js",
   "scripts": {

@@ -2,16 +2,17 @@ var supertest = require('supertest');
 var express = require('express');
 var app = express();
 var session = require('express-session');
-var cookieParser = require('cookie-parser');
 var back = require('../index');
 
 /**
  * Express Test app
  */
-
-app.use(cookieParser());
+app.set('trust proxy', 1) 
 app.use(session({
-  secret: 'super secret'
+secret: 'keyboard cat',
+  resave: true,
+  saveUninitialized: true,
+  cookie: { path: '/', httpOnly: true, secure: false, maxAge: null }
 }));
 app.use(back());
 

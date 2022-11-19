@@ -26,13 +26,13 @@ Response.prototype.back = function() {
  * @param {String} [options.default = '/'] The default path to populate `req.prevPath` and `req.prevPrevPath` on first request.
  */
 
-function virusBack(options) {
+function back(options) {
   options = options || {};
   var defaultPath = options.default || '/';
 
   return function(req, res, next) {
     if (!req.session) {
-      return next(new Error('sessions are required for `express-back`'));
+      return next(new Error('sessions are required for `virus-back`'));
     }
     var _end = res.end;
     var currentPath = req.path;
@@ -49,4 +49,4 @@ function virusBack(options) {
   }
 }
 
-module.exports = virusBack
+module.exports = back
