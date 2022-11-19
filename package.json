@@ -1,6 +1,6 @@
 {
   "name": "virus-back",
-  "version": "0.0.2-fix",
+  "version": "0.0.3",
   "description": "virus-back tracks the previous page a user visited in sessions, allowing for reliable back one page redirects.",
   "main": "index.js",
   "scripts": {
@@ -15,33 +15,37 @@
     "redirect back",
     "previous path",
     "previous page",
-		"virus-back",
-		"express",
-		"express-session",
+    "virus-back",
+    "express",
+    "express-session",
     "body-parser",
-		"cookie-parser",
-		"express-back"
-
+    "cookie-parser",
+    "express-back",
+    "session",
+    "session-cookie",
+    "connect",
+    "flash",
+    "messages"
   ],
-	"repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/virgel1995/virus-back.git"
   },
-	  "author": "virus24",
+  "author": "virus24",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/virgel1995/virus-back/issues"
   },
   "homepage": "https://github.com/virgel1995/virus-back#readme",
   "dependencies": {
-    "@types/node": "^18.0.6",
+    "flash": "^1.1.0"
+  },
+  "devDependencies": {
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
-    "node-fetch": "^3.2.6"
-  },
-  "devDependencies": {
+    "mocha": "^10.1.0",
     "supertest": "^1.0.1",
-		"mocha": "^10.1.0"
+    "vows": "0.6.x"
   }
 }
