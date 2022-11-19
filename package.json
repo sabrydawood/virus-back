@@ -1,0 +1,43 @@
+{
+  "name": "virus-back",
+  "version": "0.0.1",
+  "description": "virus-back tracks the previous page a user visited in sessions, allowing for reliable back one page redirects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "express previous page",
+    "express previous path",
+    "express redirect",
+    "express redirect back",
+    "express back",
+    "redirect back",
+    "previous path",
+    "previous page",
+		"virus-back",
+		"express",
+		"express-session",
+    "body-parser",
+		"cookie-parser",
+		"express-back"
+
+  ],
+	"repo": {
+    "type": "git",
+    "url": "https://github.com/virgel1995/virus-back"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "supertest": "^1.0.1",
+		"mocha": "^10.1.0"
+  }
+}
