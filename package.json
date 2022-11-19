@@ -36,16 +36,13 @@
   "bugs": {
     "url": "https://github.com/virgel1995/virus-back/issues"
   },
-  "homepage": "https://github.com/virgel1995/virus-back#readme",
+  "homepage": "https://clony.vercel.app/virus-back",
   "dependencies": {
-    "flash": "^1.1.0"
   },
   "devDependencies": {
-    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "mocha": "^10.1.0",
-    "supertest": "^1.0.1",
-    "vows": "0.6.x"
+    "supertest": "^1.0.1"
   }
 }
