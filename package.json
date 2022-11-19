@@ -1,6 +1,6 @@
 {
   "name": "virus-back",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "virus-back tracks the previous page a user visited in sessions, allowing for reliable back one page redirects.",
   "main": "index.js",
   "scripts": {
@@ -23,12 +23,16 @@
 		"express-back"
 
   ],
-	"repo": {
+	"repository": {
     "type": "git",
-    "url": "https://github.com/virgel1995/virus-back"
+    "url": "git+https://github.com/virgel1995/virus-back.git"
   },
-  "author": "",
-  "license": "ISC",
+	  "author": "virus24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/virgel1995/virus-back/issues"
+  },
+  "homepage": "https://github.com/virgel1995/virus-back#readme",
   "dependencies": {
     "@types/node": "^18.0.6",
     "cookie-parser": "^1.4.6",
